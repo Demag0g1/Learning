@@ -1,0 +1,10 @@
+function getCommonElements(array1, array2) {
+  let newArr = [];
+  for (let i = array1[0]; i < array1.length; i++) {
+    if (array2.includes(i)) {
+      newArr.push(i);
+    }
+  }
+  return newArr;
+}
+
